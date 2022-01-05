@@ -16,6 +16,13 @@ class Solution:
         return letter_logs + digit_logs
     
     
+# class Solution:
+#     def reorderLogFiles(self, logs: List[str]) -> List[str]:
+#         def get_key(log):
+#             _id, rest = log.split(" ", maxsplit=1)
+#             return (0, rest, _id) if rest[0].isalpha() else (1, None, None )
+#         result = sorted(logs, key=get_key)
+#         return result
 
                 
         
