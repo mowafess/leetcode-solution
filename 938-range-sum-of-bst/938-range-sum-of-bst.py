@@ -19,5 +19,6 @@ class Solution:
                 if val < high:
                     dfs(root.right)
         dfs(root)
+        
         return total
         
