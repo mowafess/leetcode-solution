@@ -9,6 +9,7 @@ class MedianFinder:
         self.store = []
 
     def addNum(self, num: int) -> None:
+        # Keep in mind that the O(log n) search is dominated by the slow O(n) insertion step.
         insort(self.store, num)
 
     def findMedian(self) -> float:
