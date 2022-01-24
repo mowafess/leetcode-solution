@@ -1,4 +1,4 @@
-from heapq import *
+# from heapq import *
 from bisect import insort
 
 class MedianFinder:
