@@ -4,9 +4,8 @@ class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
         store = []
         
-        for i, (x, y) in enumerate(points):
-            distance = math.sqrt(x**2 + y**2)
-            heappush(store, (distance, points[i]))
+        for i, point in enumerate(points):
+            heappush(store, (math.hypot(*point), points[i]))
             
         output = []
         while k > 0:
