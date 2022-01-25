@@ -1,4 +1,4 @@
-from heapq import *
+from heapq import heappush, heappop
 
 class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
