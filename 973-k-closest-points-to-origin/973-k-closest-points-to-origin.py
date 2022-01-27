@@ -5,7 +5,7 @@ class Solution:
         store = []
         
         for i, point in enumerate(points):
-            heappush(store, (math.hypot(*point), points[i]))
+            heappush(store, (math.hypot(*point), point))
             
         output = []
         while k > 0:
