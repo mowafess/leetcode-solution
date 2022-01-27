@@ -1,30 +1,23 @@
-class HitCounter:
+from collections import deque
+from bisect import bisect_right
 
+class HitCounter:
+    
     def __init__(self):
-        
-        self.hit_counter={}
-        
-        
+        self.hits = deque([])
 
     def hit(self, timestamp: int) -> None:
+        self.hits.append(timestamp)
+        start = self.hits[0]
         
-        if timestamp not in self.hit_counter:
-            self.hit_counter[timestamp]=1
-        else:
-            self.hit_counter[timestamp]+=1
-            
+        while timestamp - 300 > start:
+            self.hits.popleft()
+            start = self.hits[0]
         
-
     def getHits(self, timestamp: int) -> int:
-        
-        count=0
-        
-        for tstamp,hits in self.hit_counter.items():
-            
-            if((timestamp-tstamp)<300):
-                count+=hits
-        
-        return count
+        limit = len(self.hits)
+        curr = bisect_right(self.hits, timestamp - 300)
+        return limit - curr
         
 
 
