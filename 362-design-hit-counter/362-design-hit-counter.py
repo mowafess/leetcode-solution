@@ -10,7 +10,7 @@ class HitCounter:
         self.hits.append(timestamp)
         start = self.hits[0]
         
-        while timestamp - 300 > start:
+        while timestamp - 300 >= start:
             self.hits.popleft()
             start = self.hits[0]
         
