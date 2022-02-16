@@ -1,4 +1,20 @@
+# class Solution:
+#     def findKthLargest(self, nums: List[int], k: int) -> int:
+#         # return sorted(nums)[-k] # O(NlogN); O(1)
+#         return heapq.nlargest(k, nums)[-1]  # O(NlogK); O(k)
+    
+def merge_sort(m):
+    if len(m) <= 1:
+        return m
+ 
+    middle = len(m) // 2
+    left = m[:middle]
+    right = m[middle:]
+ 
+    left = merge_sort(left)
+    right = merge_sort(right)
+    return list(merge(left, right))
+
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        # return sorted(nums)[-k] # O(NlogN); O(1)
-        return heapq.nlargest(k, nums)[-1]  # O(NlogK); O(k)
+        return merge_sort(nums)[-k]
