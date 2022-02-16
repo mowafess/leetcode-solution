@@ -1,7 +1,6 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
         
-        @lru_cache
         def isPalindrome(word):
             return word == word[::-1]
         
