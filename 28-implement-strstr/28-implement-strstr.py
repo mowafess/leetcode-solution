@@ -3,6 +3,9 @@ class Solution:
         if not needle:
             return 0
         
+        if needle and not haystack:
+            return -1
+        
         size = len(needle)
         
         for i in range(len(haystack)):
