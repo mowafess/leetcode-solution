@@ -7,9 +7,6 @@ class NumMatrix:
         for r in range(len(matrix)):
             for c in range(len(matrix[0])):
                 self.dp[r+1][c+1] = matrix[r][c] + self.dp[r][c+1] + self.dp[r+1][c] - self.dp[r][c]
-
-#         print(self.matrix)
-#         print(sum(sum(x) for x in matrix))
         
         
     def sumRegion(self, row1: int, col1: int, row2: int, col2: int) -> int:
