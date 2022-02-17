@@ -1,10 +1,10 @@
 class NumArray:
 
     def __init__(self, nums: List[int]):
-        self.nums = list(accumulate(nums))
+        self.nums = list(accumulate([0] + nums))
     
     def sumRange(self, left: int, right: int) -> int:
-        return self.nums[right] if not left else self.nums[right] -self.nums[left-1]
+        return self.nums[right+1] - self.nums[left]
         
 
 
