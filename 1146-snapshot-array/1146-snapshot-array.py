@@ -16,15 +16,16 @@ class SnapshotArray:
    
     def get(self, index: int, snap_id: int) -> int:
         history = self.history[index]
-        lower, upper = 0, len(history) - 1
-        while lower != upper:
-            mid = (upper + lower) // 2 + 1
-            if history[mid][0] <= snap_id:
-                lower = mid
-            else: # history[mid][0] > snap_id implying history[mid-1][0] is >= snap_id - 1
-                upper = mid - 1
+        lower = bisect.bisect(history, snap_id, key=lambda x: x[0])
+        # lower, upper = 0, len(history) - 1
+        # while lower != upper:
+        #     mid = (upper + lower) // 2 + 1
+        #     if history[mid][0] <= snap_id:
+        #         lower = mid
+        #     else: # history[mid][0] > snap_id implying history[mid-1][0] is >= snap_id - 1
+        #         upper = mid - 1
             
-        return history[lower][1]
+        return history[lower-1][1]
 
 
 # from collections import defaultdict
