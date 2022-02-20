@@ -16,9 +16,8 @@ class SnapshotArray:
 
     def get(self, index: int, snap_id: int) -> int:
         while snap_id >=0:
-            for snap_index in self.snapshots[snap_id]:
-                if index == snap_index:
-                    return self.snapshots[snap_id][snap_index]
+            if index in self.snapshots[snap_id]:
+                return self.snapshots[snap_id][index]
             snap_id -= 1
         return 0
 
