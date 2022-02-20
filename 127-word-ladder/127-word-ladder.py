@@ -15,7 +15,7 @@ class Solution:
                 return 0
             
             graph = generate_graph(word_list)
-            # print(graph)
+
             q = deque([(begin, 1)])
             visited = set(begin)
 
@@ -32,5 +32,5 @@ class Solution:
                             visited.add(nei)
 
             return 0
-        # print(sorted(wordList))
+        
         return word_ladder(beginWord, endWord, wordList)
