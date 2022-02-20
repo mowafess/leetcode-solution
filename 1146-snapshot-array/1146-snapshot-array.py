@@ -1,33 +1,32 @@
 class SnapshotArray:
     def __init__(self, length: int):
         self.snap_id = -1
-        self.history = [[(self.snap_id, 0)] for _ in range(length)] # list of histories (snap_id, value)
-        self.snap_id = 0
-       
+        self.history = [[(self.snap_id, 0)] for _ in range(length)]
+        self.snap_id = 0   
 
     def set(self, index: int, val: int) -> None:
-        self.history[index].append((self.snap_id, val))
-        
+        self.history[index].append((self.snap_id, val))   
 
     def snap(self) -> int:
         self.snap_id += 1
         return self.snap_id - 1
-
    
     def get(self, index: int, snap_id: int) -> int:
         history = self.history[index]
         lower = bisect.bisect(history, snap_id, key=lambda x: x[0])
-        # lower, upper = 0, len(history) - 1
-        # while lower != upper:
-        #     mid = (upper + lower) // 2 + 1
-        #     if history[mid][0] <= snap_id:
-        #         lower = mid
-        #     else: # history[mid][0] > snap_id implying history[mid-1][0] is >= snap_id - 1
-        #         upper = mid - 1
-            
         return history[lower-1][1]
 
-
+    # def get(self, index: int, snap_id: int) -> int:
+    #     history = self.history[index]
+    #     lower, upper = 0, len(history) - 1
+    #     while lower != upper:
+    #         mid = (upper + lower) // 2 + 1
+    #         if history[mid][0] <= snap_id:
+    #             lower = mid
+    #         else: # history[mid][0] > snap_id implying history[mid-1][0] is >= snap_id - 1
+    #             upper = mid - 1
+            
+        return history[lower][1]
 # from collections import defaultdict
 # class SnapshotArray:
 
