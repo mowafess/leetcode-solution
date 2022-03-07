@@ -6,31 +6,27 @@ class Solution:
         top, left, right, bottom = 0, 0, len(matrix[0]), len(matrix)
         
         while top < bottom and left < right:
-            col = left
-            while col < right:
-                res.append(matrix[top][col])
-                col += 1
+            # get values in the top row
+            for i in range(left, right):
+                res.append(matrix[top][i])
             top += 1
             
-            row = top
-            while row < bottom:
-                res.append(matrix[row][right-1])
-                row += 1
+            # get values in right column
+            for i in range(top, bottom):
+                res.append(matrix[i][right-1])
             right -= 1
             
             if not(left < right and top < bottom): 
                 break
             
-            col = right
-            while col > left:
-                res.append(matrix[bottom-1][col-1])
-                col -= 1
+            # get values in bottom row
+            for i in range(right - 1, left - 1, -1):
+                res.append(matrix[bottom-1][i])
             bottom -= 1
             
-            row = bottom
-            while row > top:
-                res.append(matrix[row-1][left])
-                row -= 1
+            # get values in left column
+            for i in range(bottom - 1, top - 1, -1):
+                res.append(matrix[i][left])
             left += 1
             
         return res
