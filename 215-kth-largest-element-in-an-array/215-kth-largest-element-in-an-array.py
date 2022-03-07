@@ -1,7 +1,13 @@
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
+        
+        heapq.heapify(nums)
+        for _ in range(len(nums) - k):
+            heapq.heappop(nums)
+        return heapq.heappop(nums)
+        
         # return sorted(nums)[-k] # O(NlogN); O(1)
-        return heapq.nlargest(k, nums)[-1]  # O(NlogK); O(k)
+        # return heapq.nlargest(k, nums)[-1]  # O(NlogK); O(k)
     
 # def merge_sort(m):
 #     if len(m) <= 1:
