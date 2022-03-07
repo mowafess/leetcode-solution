@@ -5,13 +5,13 @@ class Solution:
         """
         
         R, C = len(matrix), len(matrix[0])
-        positions = {"cols": set(), "rows": set()}
+        cols, rows = set(), set()
         
         for i in range(R):
             for j in range(C):
                 if matrix[i][j] == 0:
-                    positions["cols"].add(j)
-                    positions["rows"].add(i)
+                    rows.add(i)
+                    cols.add(j)
         
         def zeroFill(rows, cols):
             for i in rows:
@@ -19,6 +19,6 @@ class Solution:
                     matrix[i][j] = 0
                 
         
-        zeroFill(positions["rows"], range(C))
-        zeroFill(range(R), positions["cols"])
+        zeroFill(rows, range(C))
+        zeroFill(range(R), cols)
                     
