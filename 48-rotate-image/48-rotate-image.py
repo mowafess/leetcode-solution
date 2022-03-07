@@ -2,6 +2,9 @@ class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.
+        3 2 1
+        6 5 4
+        9 8 7
         """
         k = len(matrix)
         for i in range(k):
