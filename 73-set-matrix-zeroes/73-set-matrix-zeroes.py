@@ -12,13 +12,18 @@ class Solution:
                 if matrix[i][j] == 0:
                     rows.add(i)
                     cols.add(j)
-        
-        def zeroFill(rows, cols):
-            for i in rows:
-                for j in cols:
+                    
+        for i in range(R):
+            for j in range(C):
+                if i in rows or j in cols:
                     matrix[i][j] = 0
+        
+#         def zeroFill(rows, cols):
+#             for i in rows:
+#                 for j in cols:
+#                     matrix[i][j] = 0
                 
         
-        zeroFill(rows, range(C))
-        zeroFill(range(R), cols)
+#         zeroFill(rows, range(C))
+#         zeroFill(range(R), cols)
                     
