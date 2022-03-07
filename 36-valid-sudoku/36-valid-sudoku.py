@@ -15,8 +15,10 @@ class Solution:
                     continue
                 
                 sqr = (row//3) *  3 + col//3
+                
                 if val in rows[row] or val in cols[col] or val in sqrs[sqr]:
                     return False
+                
                 rows[row].add(val)
                 cols[col].add(val)
                 sqrs[sqr].add(val)
