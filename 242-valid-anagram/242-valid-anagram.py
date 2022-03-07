@@ -15,6 +15,6 @@ class Solution:
 
         # return True
 
-        if len(s) != len(t) or set(s) != set(t):
+        if len(s) != len(t):
             return False  
         return (Counter(s) - Counter(t)) == Counter()
