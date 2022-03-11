@@ -16,9 +16,9 @@ class Solution:
             # if nums[i] > 0:
             #     break
             
-            if i == 0 or nums[i - 1] != nums[i]:
-                target = 0 - nums[i]
-                twoSum(nums[i+1:], target, nums[i])
+            # if i == 0 or nums[i - 1] != nums[i]:
+            target = 0 - nums[i]
+            twoSum(nums[i+1:], target, nums[i])
                 
         return map(list, output)
             
