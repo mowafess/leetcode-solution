@@ -14,15 +14,15 @@ class Solution:
             if i % 2 == 0:
                 e.next = head
                 e = e.next
-                # e.next = None
+                e.next = None
             else:
                 o.next = head
                 o = o.next
-                # o.next = None
+                o.next = None
             head = temp
             i += 1
         
-        e.next = None
+        # e.next = None
         o.next = even.next
         
         return odd.next
