@@ -13,7 +13,10 @@ class Solution:
         # heapify
         
         nums = [*map(lambda num: Element(num), nums)]
-        heap = nums[:k]      
+        heap = nums[:k] 
+        
+        return heapq.nlargest(k, nums)[-1]
+        
         heapq.heapify(heap)
         
         for num in nums[k:]:
