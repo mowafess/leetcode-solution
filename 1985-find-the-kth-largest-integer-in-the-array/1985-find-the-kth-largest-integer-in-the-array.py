@@ -1,6 +1,9 @@
 class Element(str):
     def __lt__(self, other):
         return int(self) < int(other)
+    
+    def __gt__(self, other):
+        return int(self) > int(other)
 
 class Solution:
     def kthLargestNumber(self, nums: List[str], k: int) -> str:
@@ -14,7 +17,7 @@ class Solution:
         heapq.heapify(heap)
         
         for num in nums[k:]:
-            if int(num) > int(heap[0]):
+            if num > heap[0]:
                 heapq.heappop(heap)
                 heapq.heappush(heap, num)
         
