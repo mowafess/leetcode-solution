@@ -12,15 +12,15 @@ class Solution:
         return heap[0]
             
         
-        heap = [num for num in nums[:k]]    # O(K)
-        heapq.heapify(heap)                 # O(K log K)
-        for num in nums[k:]:                # O(N*)
-            if num > heap[0]:
-                heapq.heappop(heap)         # O(logK)
-                heapq.heappush(heap, num)   # O(logK)
-                                            # O(NlogK)
+#         heap = [num for num in nums[:k]]    # O(K)
+#         heapq.heapify(heap)                 # O(K log K)
+#         for num in nums[k:]:                # O(N*)
+#             if num > heap[0]:
+#                 heapq.heappop(heap)         # O(logK)
+#                 heapq.heappush(heap, num)   # O(logK)
+#                                             # O(NlogK)
         
-        return heapq.heappop(heap)          # O(1)
+#         return heapq.heappop(heap)          # O(1)
                 
         
         # return sorted(nums)[-k] # O(NlogN); O(1)
