@@ -15,7 +15,7 @@ class Solution:
         nums = [*map(lambda num: Element(num), nums)]
         heap = nums[:k] 
         
-        return heapq.nlargest(k, nums)[-1]
+        # return heapq.nlargest(k, nums)[-1]
         
         heapq.heapify(heap)
         
