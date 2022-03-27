@@ -10,6 +10,7 @@ class Solution:
         def is_identical(root, sub):
             if not root or not sub:
                 return root == sub
+            
             return root.val == sub.val and \
                     is_identical(root.left, sub.left) and \
                     is_identical(root.right, sub.right)
