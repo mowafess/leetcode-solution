@@ -18,6 +18,16 @@ class KthLargest:
                 heapq.heappop(self.heap)
         return self.heap[0]
             
+        
+# class KthLargest:
+#     def __init__(self, k: int, nums):
+#         self.k, self.nums = k, heapq.nlargest(k, nums + [float('-inf')])
+#         heapq.heapify(self.nums)
+
+#     def add(self, val: int) -> int:
+#         heapq.heappushpop(self.nums,val)
+#         return self.nums[0]
+#         return self.arr[0] if len(self.arr) else None
 
 
 # Your KthLargest object will be instantiated and called as such:
