@@ -13,11 +13,13 @@ class Solution:
                 ans += d[-(i+j)]
         
         return ans
-    
+ 
+
+# from itertools import product
 # class Solution:
-#     def fourSumCount(self, *lists):
+#     def kSumCount(self, *lists, target=0):
 #         k = len(lists)
 #         sum_to_count = Counter(sum(nums) for nums in product(*lists[:k // 2]))
-#         return sum(sum_to_count[-sum(nums)] for nums in product(*lists[k // 2:]))
+#         return sum(sum_to_count[target-sum(nums)] for nums in product(*lists[k // 2:]))
 
     
