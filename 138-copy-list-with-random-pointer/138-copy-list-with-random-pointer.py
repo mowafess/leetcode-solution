@@ -18,7 +18,6 @@ class Solution:
             nodes[curr] = Node(curr.val)
             curr = curr.next
         
-        
         curr = head
         
         while curr:
