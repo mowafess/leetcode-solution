@@ -1,7 +1,7 @@
 class Solution:
     def monotoneIncreasingDigits(self, n: int) -> int:
-        if n < 10:
-            return n
+#         if n < 10:
+#             return n
         
         s = str(n)
         
