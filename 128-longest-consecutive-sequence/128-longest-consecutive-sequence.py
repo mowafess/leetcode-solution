@@ -7,7 +7,7 @@ class Solution:
         seen = set() # to avoid a repeat work
         longest = 0
         
-        for n in nums:
+        for n in num_set:
             if n - 1 in num_set:
                 continue
                 
