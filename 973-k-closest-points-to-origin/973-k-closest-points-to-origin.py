@@ -4,6 +4,7 @@ class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
         store = []
         
+        # N log N
         for i, point in enumerate(points):
             heappush(store, (math.hypot(*point), points[i]))
             
@@ -21,7 +22,8 @@ class Solution:
 #     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
 #         store = [(-math.hypot(*points[i]), i) for i in range(k)]
 #         heapify(store)
-        
+            
+        # N log K
 #         for i in range(k, len(points)):
 #             dist = -math.hypot(*points[i])
 #             if dist > store[0][0]:
