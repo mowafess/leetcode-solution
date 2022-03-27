@@ -11,4 +11,4 @@ class Solution:
             
         return s == goal
         
-        return len(s) == len(goal) and s in goal+goal
+        # return len(s) == len(goal) and s in goal+goal
