@@ -6,7 +6,7 @@ class Solution:
         for ch in t:
             if ch not in s_count or s_count[ch] != t_count[ch]:
                 return ch
-            
-        return ''
+    
+        # return list((Counter(t) - Counter(s)).keys())[0]
         
         
