@@ -6,8 +6,9 @@ class Solution(object):
         """
         output = []
         
-        for i in range(1, n//2 + 1):
-            output.extend([-i, i])
+        for i in range(n//2):
+            x = i + 1
+            output.extend([-x, x])
         
         if len(output) < n:
             output.append(0)
