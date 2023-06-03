@@ -4,14 +4,12 @@ class Solution(object):
         :type n: int
         :rtype: List[int]
         """
-        output = []
+        q, r = divmod(n, 2)
+        output = [0] if r else []
         
-        for i in range(n//2):
+        for i in range(q):
             x = i + 1
             output.extend([-x, x])
-        
-        if len(output) < n:
-            output.append(0)
             
         return output
             
