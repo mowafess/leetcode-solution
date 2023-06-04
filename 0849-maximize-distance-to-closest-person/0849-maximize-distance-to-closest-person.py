@@ -12,16 +12,12 @@ class Solution(object):
                 output[i] = i - prev
             else:
                 prev = i
-        print(output)
-        
-        prev = 0
-        
+        print(prev)
         for i in reversed(range(len(seats))):
             if not seats[i]:
-                output[i] = min(abs(prev - i), output[i])
+                output[i] = min(abs(i - prev), output[i])
             else:
                 prev = i
-        print(output)
-        
+                
         return max(output)
         
