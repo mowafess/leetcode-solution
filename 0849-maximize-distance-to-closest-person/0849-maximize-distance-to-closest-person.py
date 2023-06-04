@@ -12,7 +12,7 @@ class Solution(object):
                 output[i] = i - prev
             else:
                 prev = i
-        print(prev)
+
         for i in reversed(range(len(seats))):
             if not seats[i]:
                 output[i] = min(abs(i - prev), output[i])
