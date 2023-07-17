@@ -8,6 +8,12 @@ class Solution(object):
         :rtype: bool
         """
         
+        # T - O(max(N, M))
+        # S - O(K) where K == 26
+        # if it is always lower?
+        
+        # consider sorted approach
+        
         if len(s) != len(t):
             return False
         
@@ -18,7 +24,11 @@ class Solution(object):
             freq[t[i]] -= 1
         
         return all(val == 0 for val in freq.values())
-        # return sum(abs(val) for val in freq.values()) == 0
+    
+#         freqS = Counter(s)
+#         freqT = Counter(t)
+
+#         return freqS == freqT 
         
         
         
