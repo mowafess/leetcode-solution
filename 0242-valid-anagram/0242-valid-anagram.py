@@ -17,7 +17,8 @@ class Solution(object):
             freq[s[i]] += 1
             freq[t[i]] -= 1
         
-        return sum(abs(val) for val in freq.values()) == 0
+        return all(val == 0 for val in freq.values())
+        # return sum(abs(val) for val in freq.values()) == 0
         
         
         
