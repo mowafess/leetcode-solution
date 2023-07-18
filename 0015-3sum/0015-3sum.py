@@ -24,10 +24,9 @@ class Solution(object):
             if num > TOTAL:
                 break
                 
-            if idx > 0 and nums[idx - 1] == num:
-                continue
-            target = TOTAL - num
-            twoSum(nums[idx + 1:], target, num)
+            if idx == 0 or nums[idx - 1] != num:
+                target = TOTAL - num
+                twoSum(nums[idx + 1:], target, num)
             
         
         return map(list, output)
