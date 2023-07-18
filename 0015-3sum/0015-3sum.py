@@ -5,9 +5,7 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         TOTAL = 0
-        
         nums.sort()
-        
         output = set()
         
         def twoSum(arr, target, curr):
