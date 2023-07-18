@@ -31,13 +31,13 @@ class Solution(object):
 
 
 # ---
-        TOTAL = 0
+        TARGET = 0
 
         res = []
         nums.sort()
         
         for idx, num in enumerate(nums):
-            if num > TOTAL:
+            if num > TARGET:
                 break
             
             if idx == 0 or nums[idx-1] != num:
@@ -46,7 +46,7 @@ class Solution(object):
                 while l < r:
                     total = num + nums[l] + nums[r]
                     
-                    if total == TOTAL:
+                    if total == TARGET:
                         res.append([num, nums[l], nums[r]])
                         
                         # we only need to move one of the pointers in the case
@@ -57,7 +57,7 @@ class Solution(object):
                         while nums[l] == nums[l - 1] and l < r:
                             l += 1
                     
-                    elif total > TOTAL:
+                    elif total > TARGET:
                         r -= 1
                     
                     else:
