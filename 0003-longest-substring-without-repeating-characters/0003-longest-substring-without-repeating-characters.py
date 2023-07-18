@@ -10,7 +10,7 @@ class Solution(object):
         l, r, longest = 0, 0, 0
         
         while r < len(s):
-            while cache[s[r]] > 0 and l < r:
+            while cache[s[r]] and l < r:
                 cache[s[l]] -= 1
                 l += 1
             
