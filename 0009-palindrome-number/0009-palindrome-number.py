@@ -1,6 +1,8 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         
+        # edge case: any number less than 0 should be false
+        
         if x < 0:
             return False
         
