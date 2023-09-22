@@ -27,6 +27,9 @@ class Solution:
             if node.right:
                 stack.append((new_parent, new_level, node.right))
                 
+            if len(res) == 2:
+                break
+                
         return res[0][0] != res[1][0] and res[0][1] == res[1][1] 
                 
             
