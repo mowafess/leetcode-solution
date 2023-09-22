@@ -5,32 +5,25 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def isCousins(self, root: Optional[TreeNode], x: int, y: int) -> bool:
+    def isCousins(self, root: TreeNode, x: int, y: int) -> bool:
         
-        res = []
+        xDetails = None
+        yDetails = None
         
-        stack = [(0, 0, root)]
+        deque = collections.deque([[0, None, root]])
         
-        while stack:
-            # print(stack, '\n')
-            parent, level, node = stack.pop()
-            
-            new_level = level + 1
-            new_parent = node.val
-            
-            if new_parent in (x, y):
-                res.append((parent, level))
-            
-            if node.left:
-                stack.append((new_parent, new_level, node.left))
+        while deque:
+            level, parent, root = deque.popleft()
+            if root:
+                if root.val == x:
+                    xDetails = (parent, level)
+                if root.val == y:
+                    yDetails = (parent, level)
                 
-            if node.right:
-                stack.append((new_parent, new_level, node.right))
-                
-            if len(res) == 2:
-                break
-                
-        return res[0][0] != res[1][0] and res[0][1] == res[1][1] 
-                
+                deque.append([level + 1, root.val, root.left])
+                deque.append([level + 1, root.val, root.right])
             
-        
+                if xDetails and yDetails:
+                    break
+                    
+        return xDetails[1] == yDetails[1] and xDetails[0] != yDetails[0]
