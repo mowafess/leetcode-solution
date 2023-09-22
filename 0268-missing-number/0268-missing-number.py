@@ -1,6 +1,8 @@
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         
+        # if sorted use binary search
+        
 #         n = len(nums)
         
 #         total = sum(nums)
