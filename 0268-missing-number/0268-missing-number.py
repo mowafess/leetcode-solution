@@ -5,7 +5,7 @@ def binary_search(arr: List[int]) -> int:
     while lo < hi:
         mid = (lo + hi) // 2
         if mid < arr[mid]:
-            hi = mid
+            hi = mid - 1
         else:
             lo = mid + 1
         
