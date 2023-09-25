@@ -1,18 +1,13 @@
-from collections import defaultdict
-
-class Solution(object):
-    def isAnagram(self, s, t):
-        """
-        :type s: str
-        :type t: str
-        :rtype: bool
-        """
-        
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
         # T - O(max(N, M))
         # S - O(K) where K == 26
         # if it is always lower?
         
-        # consider sorted approach
+        # 1. consider sorted approach - N log N
+        # 2. edge case: check if they are of same len
+        # 3. consider encoding with array
+        # 4. consider counting with dict +1/-1 and check if all are zeros
         
         if len(s) != len(t):
             return False
@@ -29,6 +24,4 @@ class Solution(object):
 #         freqT = Counter(t)
 
 #         return freqS == freqT 
-        
-        
         
