@@ -12,8 +12,6 @@ class Solution:
         while q:
             node = q.popleft()
             res.append(node)
-
-            for child in graph[node]:
-                q.append(child)
+            q.extend(graph[node])
 
         return res
