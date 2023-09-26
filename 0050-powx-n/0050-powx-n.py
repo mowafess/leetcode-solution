@@ -37,3 +37,19 @@ class Solution:
             y = -1 * y if n % 2 else y
             
         return y
+    
+    
+#         if n < 0: n, x = -n, 1/x
+
+#         stack, ans = deque(), 1
+        
+#         while n:
+#             n, bit = divmod(n,2)
+#             stack.append(bit)    
+
+#         while stack:
+#             bit = stack.pop()
+#             ans*= ans
+#             if bit: ans*=x
+
+#         return ans
