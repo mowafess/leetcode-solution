@@ -23,33 +23,33 @@ class Solution:
 #         return res
 
         # edge case: if x = 0; log would be unfedined
-        if x == 0:
-            return 0
+#         if x == 0:
+#             return 0
         
-        if n == 0:
-            return 1
+#         if n == 0:
+#             return 1
         
         
-        log_y = math.log10(abs(x)) * n
-        y = 10 ** log_y
+#         log_y = math.log10(abs(x)) * n
+#         y = 10 ** log_y
         
-        if x < 0:
-            y = -1 * y if n % 2 else y
+#         if x < 0:
+#             y = -1 * y if n % 2 else y
             
-        return y
+#         return y
     
     
-#         if n < 0: n, x = -n, 1/x
+        if n < 0: n, x = -n, 1/x
 
-#         stack, ans = deque(), 1
+        stack, ans = deque(), 1
         
-#         while n:
-#             n, bit = divmod(n,2)
-#             stack.append(bit)    
+        while n:
+            n, bit = divmod(n,2)
+            stack.append(bit)    
 
-#         while stack:
-#             bit = stack.pop()
-#             ans*= ans
-#             if bit: ans*=x
+        while stack:
+            bit = stack.pop()
+            ans*= ans
+            if bit: ans*=x
 
-#         return ans
+        return ans
