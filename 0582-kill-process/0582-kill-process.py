@@ -7,15 +7,13 @@ class Solution:
             graph[parent].append(child)
 
         res = []
-        q = deque([(0, 0 == kill)])
+        q = deque([kill])
         
         while q:
-            node, to_kill = q.popleft()
-
-            if to_kill:
-                res.append(node)
+            node = q.popleft()
+            res.append(node)
 
             for child in graph[node]:
-                q.append((child, to_kill or child == kill))
+                q.append(child)
 
         return res
