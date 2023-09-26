@@ -22,6 +22,7 @@ class Solution:
         
 #         return res
 
+#---------------------------------------------------------
         # edge case: if x = 0; log would be unfedined
 #         if x == 0:
 #             return 0
@@ -39,9 +40,10 @@ class Solution:
 #         return y
     
     
-        if n < 0: n, x = -n, 1/x
+        if n < 0: 
+            n, x = -n, 1/x
 
-        stack, ans = deque(), 1
+        stack, ans = [], 1
         
         while n:
             n, bit = divmod(n,2)
@@ -49,7 +51,9 @@ class Solution:
 
         while stack:
             bit = stack.pop()
-            ans*= ans
-            if bit: ans*=x
+            ans *= ans
+
+            if bit: 
+                ans *= x
 
         return ans
