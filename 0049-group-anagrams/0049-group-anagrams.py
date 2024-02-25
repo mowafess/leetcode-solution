@@ -1,27 +1,18 @@
-class Solution(object):
-    def groupAnagrams(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: List[List[str]]
-        """
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         
-#         groups = collections.defaultdict(list)
+        def encode(s):
+            code = [0] * 26
+            base = ord('a')
+            for ch in s:
+                code[ord(ch)-base] += 1
+            
+            return tuple(code)
         
-#         for word in strs:
-#             groups[tuple(sorted(word))].append(word)
+        freq = collections.defaultdict(list)
         
-#         return list(groups.values())
-
-        def encode(word):
-            char_counter = [0] * 26
-            for ch in word:
-                index = ord(ch) - ord('a')
-                char_counter[index] += 1
-            return tuple(char_counter)
-        
-        groups = collections.defaultdict(list)
-        
-        for word in strs:
-            groups[encode(word)].append(word)
-        
-        return list(groups.values())
+        for s in strs:
+            freq[encode(s)].append(s)
+            
+        return list(freq.values())
+            
