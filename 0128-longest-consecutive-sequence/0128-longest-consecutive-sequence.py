@@ -1,25 +1,20 @@
-class Solution(object):
-    def longestConsecutive(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
+class Solution:
+    def longestConsecutive(self, nums: List[int]) -> int:
+        # approch 1: sort and count subsequence that are consecutive
+        # T - O(NlogN)
         
-        cache = set(nums)
+        num_set = set(nums)
+        seen = set() # to avoid a repeat work
         longest = 0
         
-        for num in nums:
-            
-            if num - 1 in cache: # helps avoid duplicate work
+        for n in num_set:
+            if n - 1 in num_set:
                 continue
-            
-            curr = 0
-            
-            while num in cache:
+                
+            curr = 1
+            while n + curr in num_set:
                 curr += 1
-                num += 1
-            
-            longest = max(longest, curr)
-        
-        return longest
-            
+
+            longest  = max(longest , curr)
+                
+        return longest 
