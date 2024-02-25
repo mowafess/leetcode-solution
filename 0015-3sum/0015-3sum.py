@@ -1,70 +1,26 @@
-class Solution(object):
-    def threeSum(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
-#         TOTAL = 0
-#         nums.sort()
-#         output = set()
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
         
-# #         def twoSum(arr, target, curr):
-# #             seen = set()
-            
-# #             for num in arr:
-# #                 comp = target - num
-# #                 if comp in seen:
-# #                     output.add((curr, comp, num))
-# #                 seen.add(num)
-            
-        
-#         for idx, num in enumerate(nums):
-#             if num > TOTAL:
-#                 break
-                
-#             if idx == 0 or nums[idx - 1] != num:
-#                 target = TOTAL - num
-#                 twoSum(nums[idx + 1:], target, num)
-            
-        
-#         return map(list, output)
-
-
-# ---
-        TARGET = 0
-
-        res = []
         nums.sort()
+        output = set()
         
+        def twoSums(start, num, target):
+            
+            seen = set()
+            
+            for i in range(start, len(nums)):
+                if target - nums[i] in seen:
+                    output.add((num, target - nums[i], nums[i]))
+                seen.add(nums[i])
+            
+
         for idx, num in enumerate(nums):
-            if num > TARGET:
+            if num > 0:
                 break
             
-            if idx == 0 or nums[idx-1] != num:
-                l, r = idx + 1, len(nums) - 1
+            if idx > 0 and nums[idx-1] == num:
+                continue
                 
-                while l < r:
-                    total = num + nums[l] + nums[r]
-                    
-                    if total == TARGET:
-                        res.append([num, nums[l], nums[r]])
-                        
-                        # we only need to move one of the pointers in the case
-                        # the other if blocks would take care of the movement of
-                        # of the other
-                        
-                        l += 1
-                        while nums[l] == nums[l - 1] and l < r:
-                            l += 1
-                    
-                    elif total > TARGET:
-                        r -= 1
-                    
-                    else:
-                        l += 1
+            twoSums(idx+1, num, 0 - num)
                 
-        
-        return res
-                    
-                        
-                        
+        return map(list, output)
