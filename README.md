@@ -16,8 +16,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/mowafess/leetcode-solution/tree/master/0015-3sum) |
+| [0125-valid-palindrome](https://github.com/mowafess/leetcode-solution/tree/master/0125-valid-palindrome) |
 ## Sorting
 |  |
 | ------- |
 | [0015-3sum](https://github.com/mowafess/leetcode-solution/tree/master/0015-3sum) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/mowafess/leetcode-solution/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
