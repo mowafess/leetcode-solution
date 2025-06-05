@@ -30,8 +30,7 @@ class Solution:
                     l += 1
                 else:
                     r -= 1
-            
-        print(nums)
+    
 
         for idx, num in enumerate(nums):
             if num > 0:
