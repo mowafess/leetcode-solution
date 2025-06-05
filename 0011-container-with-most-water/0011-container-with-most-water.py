@@ -13,10 +13,18 @@ class Solution(object):
             width = r - l
             
             max_area = max(max_area, min_h * width)
-            
+
             if height[l] < height[r]:
                 l += 1
-            else:
+            elif height[l] > height[r]:
                 r -= 1
+            else:
+                l += 1
+                r -= 1
+            
+            # if height[l] < height[r]:
+            #     l += 1
+            # else:
+            #     r -= 1
                 
         return max_area
