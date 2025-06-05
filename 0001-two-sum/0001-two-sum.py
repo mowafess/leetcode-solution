@@ -10,7 +10,8 @@ class Solution:
 
         
         # optimize with dict as cache
-        #  Time: O(N); Space: O(N)
+        # Time: O(N); Space: O(N)
+        # for unordered list
         cache = {}
 
         for idx, num in enumerate(nums):
