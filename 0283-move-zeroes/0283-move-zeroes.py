@@ -4,10 +4,8 @@ class Solution:
 
         while r < len(nums):
     
-            if l != r and nums[l] == 0 and nums[r] != 0:
+            if nums[r] != 0:
                 nums[l], nums[r] = nums[r], nums[l]
-                l += 1
-            elif nums[l] != 0:
                 l += 1
 
             r += 1
