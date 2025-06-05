@@ -2,17 +2,36 @@ class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         
         nums.sort()
-        output = set()
-        
+        output = []
+
+        # output = set()
+        # def twoSums(start, num, target):
+            
+        #     seen = set()
+            
+        #     for i in range(start, len(nums)):
+        #         if target - nums[i] in seen:
+        #             output.add((num, target - nums[i], nums[i]))
+        #         seen.add(nums[i])
+
         def twoSums(start, num, target):
+            l, r = start, len(nums) - 1
+
+            while l < r:  
+                curr = nums[r] + nums[l]
+
+                if curr == target:
+                    output.append([num, nums[l], nums[r]])
+                    l += 1
+                    while l < r and nums[l] == nums[l - 1]:
+                        l += 1
+
+                elif curr < target:
+                    l += 1
+                else:
+                    r -= 1
             
-            seen = set()
-            
-            for i in range(start, len(nums)):
-                if target - nums[i] in seen:
-                    output.add((num, target - nums[i], nums[i]))
-                seen.add(nums[i])
-            
+        print(nums)
 
         for idx, num in enumerate(nums):
             if num > 0:
@@ -23,40 +42,5 @@ class Solution:
                 
             twoSums(idx+1, num, 0 - num)
                 
-        return map(list, output)
-
-# avoiding duplicates
-class Solution2:
-    def threeSum(self, nums: list[int]):
-        nums.sort()
-        out = []
-        r = len(nums) - 1
-
-        def twoSum(curr, l, r):
-            while l < r:
-                total = curr + nums[l] + nums[r]
-                if total == 0:
-                    out.append((curr, nums[l], nums[r]))
-                    while l < r and nums[l] == nums[l + 1]:
-                        l += 1
-                    while l < r and nums[r] == nums[r - 1]:
-                        r -= 1
-                    l += 1
-                    r -= 1
-                elif total > 0:
-                    r -= 1
-                else:
-                    l += 1
-    
-
-
-        prev = float("-inf")
-        for i, num in enumerate(nums):
-            if num == prev:
-                continue
-            
-            twoSum(num, i + 1, r)
-
-            prev = num
-        
-        return out
+        # return map(list, output)
+        return output
