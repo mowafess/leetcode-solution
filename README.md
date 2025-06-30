@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/mowafess/leetcode-solution/tree/master/0015-3sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mowafess/leetcode-solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0283-move-zeroes](https://github.com/mowafess/leetcode-solution/tree/master/0283-move-zeroes) |
+| [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
 ## Hash Table
 |  |
 | ------- |
@@ -42,4 +43,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mowafess/leetcode-solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Depth-First Search
+|  |
+| ------- |
+| [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
+## Matrix
+|  |
+| ------- |
+| [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
 <!---LeetCode Topics End-->
