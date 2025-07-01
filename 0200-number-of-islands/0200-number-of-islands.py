@@ -10,11 +10,23 @@ class Solution:
         rows = len(grid)
         cols = len(grid[0])
 
+        is_within = lambda x, limit: 0 <= x < limit
+
+        def dfs(r, c):
+            if grid[r][c] == '0':
+                return
+            
+            grid[r][c] = '0'
+
+            for dr, dc in pos:
+                nr, nc = r + dr, c + dc
+                if is_within(nr, rows) and is_within(nc, cols) and grid[nr][nc] == '1':
+                    dfs(nr, nc)
+
         for r in range(rows):
             for c in range(cols):
                 if grid[r][c] == '1':
-                    grid[r][c] = '0'
-                    self.bfs(grid, r, c, pos, rows, cols)
+                    dfs(r, c)
                     total += 1
 
         return total
