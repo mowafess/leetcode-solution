@@ -13,7 +13,7 @@ class Solution:
             if not grid[r][c]:
                 return 0
             
-            area = 1
+            area = grid[r][c]
             grid[r][c] = 0
 
             for dr, dc in pos:
