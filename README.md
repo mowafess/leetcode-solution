@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/mowafess/leetcode-solution/tree/master/0200-number-of-islands) |
 | [0283-move-zeroes](https://github.com/mowafess/leetcode-solution/tree/master/0283-move-zeroes) |
 | [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
+| [0695-max-area-of-island](https://github.com/mowafess/leetcode-solution/tree/master/0695-max-area-of-island) |
 ## Hash Table
 |  |
 | ------- |
@@ -49,18 +50,22 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0200-number-of-islands](https://github.com/mowafess/leetcode-solution/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
+| [0695-max-area-of-island](https://github.com/mowafess/leetcode-solution/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/mowafess/leetcode-solution/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
+| [0695-max-area-of-island](https://github.com/mowafess/leetcode-solution/tree/master/0695-max-area-of-island) |
 ## Matrix
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/mowafess/leetcode-solution/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
+| [0695-max-area-of-island](https://github.com/mowafess/leetcode-solution/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/mowafess/leetcode-solution/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/mowafess/leetcode-solution/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
