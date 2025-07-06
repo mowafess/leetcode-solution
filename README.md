@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/mowafess/leetcode-solution/tree/master/0125-valid-palindrome) |
+| [0273-integer-to-english-words](https://github.com/mowafess/leetcode-solution/tree/master/0273-integer-to-english-words) |
 ## Greedy
 |  |
 | ------- |
@@ -101,4 +102,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/mowafess/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
+## Math
+|  |
+| ------- |
+| [0273-integer-to-english-words](https://github.com/mowafess/leetcode-solution/tree/master/0273-integer-to-english-words) |
+## Recursion
+|  |
+| ------- |
+| [0273-integer-to-english-words](https://github.com/mowafess/leetcode-solution/tree/master/0273-integer-to-english-words) |
 <!---LeetCode Topics End-->
