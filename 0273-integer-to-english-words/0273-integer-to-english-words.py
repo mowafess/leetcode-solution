@@ -63,20 +63,27 @@ class Solution:
             1000000: "Million", 1000000000: "Billion"
         }
         
+        TEN = 10
+        TWENTY = 2 * TEN
+        HUNDRED = TEN ** 2
+        THOUSAND = TEN ** 3
+        MILLION = TEN ** 6
+        BILLION = TEN ** 9
+
         def helper(n):
             if n == 0:
                 return []
-            elif n < 20:
+            elif n < TWENTY:
                 return [words[n]]
-            elif n < 100:
-                return [words[n // 10 * 10]] + helper(n % 10)
-            elif n < 1000:
-                return [words[n // 100], "Hundred"] + helper(n % 100)
-            elif n < 1000000:
-                return helper(n // 1000) + ["Thousand"] + helper(n % 1000)
-            elif n < 1000000000:
-                return helper(n // 1000000) + ["Million"] + helper(n % 1000000)
+            elif n < HUNDRED:
+                return [words[(n // TEN) * TEN]] + helper(n % TEN)
+            elif n < THOUSAND:
+                return [words[n // HUNDRED], "Hundred"] + helper(n % HUNDRED)
+            elif n < MILLION:
+                return helper(n // THOUSAND) + ["Thousand"] + helper(n % THOUSAND)
+            elif n < BILLION:
+                return helper(n // MILLION) + ["Million"] + helper(n % MILLION)
             else:
-                return helper(n // 1000000000) + ["Billion"] + helper(n % 1000000000)
+                return helper(n // BILLION) + ["Billion"] + helper(n % BILLION)
         
         return " ".join(helper(num))
