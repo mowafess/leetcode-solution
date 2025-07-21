@@ -107,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0273-integer-to-english-words](https://github.com/mowafess/leetcode-solution/tree/master/0273-integer-to-english-words) |
+| [1289-day-of-the-week](https://github.com/mowafess/leetcode-solution/tree/master/1289-day-of-the-week) |
 ## Recursion
 |  |
 | ------- |
