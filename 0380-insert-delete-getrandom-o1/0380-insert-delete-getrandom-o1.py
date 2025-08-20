@@ -17,8 +17,9 @@ class RandomizedSet:
             return False
 
         last_val, idx = self.stack[-1], self.cache[val]
-        self.cache[val], self.cache[last_val] = self.cache[last_val], idx
-        self.stack[idx], self.stack[-1] = self.stack[-1], self.stack[idx]
+        # self.cache[val], self.cache[last_val] = self.cache[last_val], idx
+        # self.stack[idx], self.stack[-1] = self.stack[-1], self.stack[idx]
+        self.stack[idx], self.cache[last_val] = last_val, idx
         self.stack.pop()
         del self.cache[val]
         return True
