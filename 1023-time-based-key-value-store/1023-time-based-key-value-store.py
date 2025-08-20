@@ -11,7 +11,7 @@ class TimeMap:
         self.data[key].append((timestamp, value))
 
     def get(self, key: str, timestamp: int) -> str:
-        idx = bisect.bisect(self.data[key], (timestamp, chr(255))) - 1
+        idx = bisect.bisect_right(self.data[key], (timestamp, chr(255))) - 1
         return "" if idx == -1 else self.data[key][idx][-1]
         
 
