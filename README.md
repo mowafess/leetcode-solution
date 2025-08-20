@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/mowafess/leetcode-solution/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/mowafess/leetcode-solution/tree/master/0013-roman-to-integer) |
 | [0347-top-k-frequent-elements](https://github.com/mowafess/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mowafess/leetcode-solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [1023-time-based-key-value-store](https://github.com/mowafess/leetcode-solution/tree/master/1023-time-based-key-value-store) |
@@ -39,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/mowafess/leetcode-solution/tree/master/0008-string-to-integer-atoi) |
+| [0013-roman-to-integer](https://github.com/mowafess/leetcode-solution/tree/master/0013-roman-to-integer) |
 | [0125-valid-palindrome](https://github.com/mowafess/leetcode-solution/tree/master/0125-valid-palindrome) |
 | [0273-integer-to-english-words](https://github.com/mowafess/leetcode-solution/tree/master/0273-integer-to-english-words) |
 | [1023-time-based-key-value-store](https://github.com/mowafess/leetcode-solution/tree/master/1023-time-based-key-value-store) |
@@ -110,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/mowafess/leetcode-solution/tree/master/0013-roman-to-integer) |
 | [0273-integer-to-english-words](https://github.com/mowafess/leetcode-solution/tree/master/0273-integer-to-english-words) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mowafess/leetcode-solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [1289-day-of-the-week](https://github.com/mowafess/leetcode-solution/tree/master/1289-day-of-the-week) |
