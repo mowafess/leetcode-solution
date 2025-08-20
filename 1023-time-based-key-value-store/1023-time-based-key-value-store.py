@@ -8,7 +8,7 @@ class TimeMap:
         self.data = defaultdict(list)
 
     def set(self, key: str, value: str, timestamp: int) -> None:
-        bisect.insort(self.data[key], (timestamp, value))
+        self.data[key].append((timestamp, value))
 
     def get(self, key: str, timestamp: int) -> str:
         idx = bisect.bisect_right(self.data[key], (timestamp, chr(255))) - 1
