@@ -1,22 +1,22 @@
-class MyCalendarTwo:
-    # Time: O(n) per book, Space: O(n)
-    def __init__(self):
-        self.bookings = []  # All bookings
-        self.overlaps = []  # Double bookings
+# class MyCalendarTwo:
+#     # Time: O(n) per book, Space: O(n)
+#     def __init__(self):
+#         self.bookings = []  # All bookings
+#         self.overlaps = []  # Double bookings
     
-    def book(self, start: int, end: int) -> bool:
-        # Check if triple booking would occur
-        for s, e in self.overlaps:
-            if start < e and end > s:
-                return False
+#     def book(self, start: int, end: int) -> bool:
+#         # Check if triple booking would occur
+#         for s, e in self.overlaps:
+#             if start < e and end > s:
+#                 return False
         
-        # Add new overlaps
-        for s, e in self.bookings:
-            if start < e and end > s:
-                self.overlaps.append((max(start, s), min(end, e)))
+#         # Add new overlaps
+#         for s, e in self.bookings:
+#             if start < e and end > s:
+#                 self.overlaps.append((max(start, s), min(end, e)))
         
-        self.bookings.append((start, end))
-        return True
+#         self.bookings.append((start, end))
+#         return True
 
 from sortedcontainers import SortedDict
 
@@ -40,7 +40,7 @@ class MyCalendarTwo:
         for time in self.booking_count:
             if time > end:
                 break
-                
+
             count = self.booking_count[time]
             overlapped_booking += count
             # If the number of overlaps exceeds the allowed limit
