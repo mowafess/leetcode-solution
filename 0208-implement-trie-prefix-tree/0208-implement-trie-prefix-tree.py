@@ -1,10 +1,26 @@
 class Node:
+    """
+    A node in the Trie structure.
+    Each node has:
+    - children: dictionary mapping characters to child nodes
+    - is_terminal_node: boolean flag indicating if this node marks the end of a word
+    """
     def __init__(self):
         self.children = {}
         self.is_terminal_node = False
 
 
 class Trie:
+    """
+    Trie (Prefix Tree) implementation.
+    
+    Time Complexity:
+    - insert: O(m) where m is the length of the word
+    - search: O(m) where m is the length of the word
+    - startsWith: O(m) where m is the length of the prefix
+    
+    Space Complexity: O(n * m) where n is number of words, m is average word length
+    """
 
     def __init__(self):
         self.root = Node()
