@@ -36,6 +36,7 @@ class WordDictionary:
         ch = word[index]
         
         if ch == '.':
+            # explore all children node if wildcard
             for child in node.children.values():
                 if self._dfs(word, index + 1, child):
                     return True
