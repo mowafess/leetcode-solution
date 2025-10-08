@@ -59,7 +59,32 @@ class Trie:
 
         return True
         
-
+def test_randomized():
+    """Randomized testing with property-based checks."""
+    import random
+    import string
+    
+    trie = Trie()
+    inserted_words = set()
+    
+    # Insert random words
+    for _ in range(100):
+        # Generate random word (1-10 characters)
+        length = random.randint(1, 10)
+        word = ''.join(random.choices(string.ascii_lowercase, k=length))
+        trie.insert(word)
+        inserted_words.add(word)
+    
+    # All inserted words should be found
+    for word in inserted_words:
+        assert trie.search(word) == True, f"Should find inserted word '{word}'"
+    
+    # All prefixes of inserted words should be found
+    for word in inserted_words:
+        for i in range(1, len(word) + 1):
+            prefix = word[:i]
+            assert trie.startsWith(prefix) == True, f"Should find prefix '{prefix}'"
+    
 
 # Your Trie object will be instantiated and called as such:
 # obj = Trie()
