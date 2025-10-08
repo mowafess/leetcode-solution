@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
 | [0648-replace-words](https://github.com/mowafess/leetcode-solution/tree/master/0648-replace-words) |
 | [0695-max-area-of-island](https://github.com/mowafess/leetcode-solution/tree/master/0695-max-area-of-island) |
+| [0731-my-calendar-ii](https://github.com/mowafess/leetcode-solution/tree/master/0731-my-calendar-ii) |
 | [1014-k-closest-points-to-origin](https://github.com/mowafess/leetcode-solution/tree/master/1014-k-closest-points-to-origin) |
 ## Hash Table
 |  |
@@ -177,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0731-my-calendar-ii](https://github.com/mowafess/leetcode-solution/tree/master/0731-my-calendar-ii) |
 | [1023-time-based-key-value-store](https://github.com/mowafess/leetcode-solution/tree/master/1023-time-based-key-value-store) |
 ## Design
 |  |
@@ -185,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0211-design-add-and-search-words-data-structure](https://github.com/mowafess/leetcode-solution/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mowafess/leetcode-solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mowafess/leetcode-solution/tree/master/0380-insert-delete-getrandom-o1) |
+| [0731-my-calendar-ii](https://github.com/mowafess/leetcode-solution/tree/master/0731-my-calendar-ii) |
 | [1023-time-based-key-value-store](https://github.com/mowafess/leetcode-solution/tree/master/1023-time-based-key-value-store) |
 | [1512-design-underground-system](https://github.com/mowafess/leetcode-solution/tree/master/1512-design-underground-system) |
 ## Randomized
@@ -220,4 +223,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0094-binary-tree-inorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0145-binary-tree-postorder-traversal) |
+## Segment Tree
+|  |
+| ------- |
+| [0731-my-calendar-ii](https://github.com/mowafess/leetcode-solution/tree/master/0731-my-calendar-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [0731-my-calendar-ii](https://github.com/mowafess/leetcode-solution/tree/master/0731-my-calendar-ii) |
+## Ordered Set
+|  |
+| ------- |
+| [0731-my-calendar-ii](https://github.com/mowafess/leetcode-solution/tree/master/0731-my-calendar-ii) |
 <!---LeetCode Topics End-->
