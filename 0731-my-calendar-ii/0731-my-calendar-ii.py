@@ -37,7 +37,11 @@ class MyCalendarTwo:
         overlapped_booking = 0
 
         # Calculate the prefix sum of bookings.
-        for count in self.booking_count.values():
+        for time in self.booking_count:
+            if time > end:
+                break
+                
+            count = self.booking_count[time]
             overlapped_booking += count
             # If the number of overlaps exceeds the allowed limit
             # rollback and return False.
