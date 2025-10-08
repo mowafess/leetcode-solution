@@ -36,6 +36,16 @@ class Trie:
 
 
 class Solution:
+    """
+    Time complexity: O(d⋅w+s⋅w)
+    Creating the Trie takes O(d⋅w). Creating the data structure that stores the words in the sentence takes O(s⋅w).
+    
+    Space - O(N × M × A)
+    N = number of words
+    M = average word length
+    A = alphabet size (26 for lowercase English)
+
+    """
     def replaceWords(self, dictionary: List[str], sentence: str) -> str:
         words = sentence.split()
         trie = Trie()
