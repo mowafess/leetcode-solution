@@ -4,8 +4,9 @@ class Solution:
         out = [intervals[0]]
 
         for start, end in intervals[1:]:
-            if start <= out[-1][-1]:
-                out[-1][-1] = max(out[-1][-1], end)
+            prev_end = out[-1][-1]
+            if start <= prev_end:
+                out[-1][-1] = max(prev_end, end)
             else:
                 out.append([start, end])
         
