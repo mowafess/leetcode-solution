@@ -85,6 +85,9 @@ def test_randomized():
             prefix = word[:i]
             assert trie.startsWith(prefix) == True, f"Should find prefix '{prefix}'"
     
+    print(f"✓ Randomized test passed (tested {len(inserted_words)} unique words)")
+
+test_randomized()
 
 # Your Trie object will be instantiated and called as such:
 # obj = Trie()
