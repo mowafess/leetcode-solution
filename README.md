@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/mowafess/leetcode-solution/tree/master/0098-validate-binary-search-tree) |
 | [0112-path-sum](https://github.com/mowafess/leetcode-solution/tree/master/0112-path-sum) |
 | [0200-number-of-islands](https://github.com/mowafess/leetcode-solution/tree/master/0200-number-of-islands) |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/mowafess/leetcode-solution/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0102-binary-tree-level-order-traversal) |
 | [0112-path-sum](https://github.com/mowafess/leetcode-solution/tree/master/0112-path-sum) |
@@ -119,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/mowafess/leetcode-solution/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0102-binary-tree-level-order-traversal) |
 | [0112-path-sum](https://github.com/mowafess/leetcode-solution/tree/master/0112-path-sum) |
@@ -198,4 +201,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0078-subsets](https://github.com/mowafess/leetcode-solution/tree/master/0078-subsets) |
+## Stack
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0094-binary-tree-inorder-traversal) |
 <!---LeetCode Topics End-->
