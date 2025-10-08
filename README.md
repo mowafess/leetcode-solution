@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/mowafess/leetcode-solution/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/mowafess/leetcode-solution/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/mowafess/leetcode-solution/tree/master/0015-3sum) |
+| [0046-permutations](https://github.com/mowafess/leetcode-solution/tree/master/0046-permutations) |
 | [0056-merge-intervals](https://github.com/mowafess/leetcode-solution/tree/master/0056-merge-intervals) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mowafess/leetcode-solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0200-number-of-islands](https://github.com/mowafess/leetcode-solution/tree/master/0200-number-of-islands) |
@@ -184,4 +185,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/mowafess/leetcode-solution/tree/master/0098-validate-binary-search-tree) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/mowafess/leetcode-solution/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
