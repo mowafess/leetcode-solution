@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/mowafess/leetcode-solution/tree/master/0015-3sum) |
 | [0046-permutations](https://github.com/mowafess/leetcode-solution/tree/master/0046-permutations) |
 | [0056-merge-intervals](https://github.com/mowafess/leetcode-solution/tree/master/0056-merge-intervals) |
+| [0078-subsets](https://github.com/mowafess/leetcode-solution/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mowafess/leetcode-solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0200-number-of-islands](https://github.com/mowafess/leetcode-solution/tree/master/0200-number-of-islands) |
 | [0283-move-zeroes](https://github.com/mowafess/leetcode-solution/tree/master/0283-move-zeroes) |
@@ -189,4 +190,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0046-permutations](https://github.com/mowafess/leetcode-solution/tree/master/0046-permutations) |
+| [0078-subsets](https://github.com/mowafess/leetcode-solution/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/mowafess/leetcode-solution/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
