@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/mowafess/leetcode-solution/tree/master/0098-validate-binary-search-tree) |
 | [0112-path-sum](https://github.com/mowafess/leetcode-solution/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0200-number-of-islands](https://github.com/mowafess/leetcode-solution/tree/master/0200-number-of-islands) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/mowafess/leetcode-solution/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mowafess/leetcode-solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -119,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0102-binary-tree-level-order-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0102-binary-tree-level-order-traversal) |
 | [0112-path-sum](https://github.com/mowafess/leetcode-solution/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mowafess/leetcode-solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Binary Tree
 |  |
@@ -128,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0102-binary-tree-level-order-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0102-binary-tree-level-order-traversal) |
 | [0112-path-sum](https://github.com/mowafess/leetcode-solution/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mowafess/leetcode-solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Divide and Conquer
 |  |
@@ -209,4 +212,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0145-binary-tree-postorder-traversal) |
 <!---LeetCode Topics End-->
