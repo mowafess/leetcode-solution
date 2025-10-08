@@ -11,9 +11,9 @@ class Solution:
                 i += 1
             else:
                 break
-        print(i)
-        left = i
-        for start, end in intervals[left:]:
+        # print(i)
+        # left = i
+        for start, end in intervals[i:]:
             if start <= newInterval[1]:
                 newInterval = [min(start, newInterval[0]), max(end, newInterval[1])]
                 i += 1
