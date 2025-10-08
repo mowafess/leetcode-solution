@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/mowafess/leetcode-solution/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/mowafess/leetcode-solution/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0273-integer-to-english-words](https://github.com/mowafess/leetcode-solution/tree/master/0273-integer-to-english-words) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/mowafess/leetcode-solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0648-replace-words](https://github.com/mowafess/leetcode-solution/tree/master/0648-replace-words) |
 | [1023-time-based-key-value-store](https://github.com/mowafess/leetcode-solution/tree/master/1023-time-based-key-value-store) |
 | [1512-design-underground-system](https://github.com/mowafess/leetcode-solution/tree/master/1512-design-underground-system) |
@@ -80,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0112-path-sum](https://github.com/mowafess/leetcode-solution/tree/master/0112-path-sum) |
 | [0200-number-of-islands](https://github.com/mowafess/leetcode-solution/tree/master/0200-number-of-islands) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/mowafess/leetcode-solution/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/mowafess/leetcode-solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/mowafess/leetcode-solution/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
@@ -88,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0102-binary-tree-level-order-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0102-binary-tree-level-order-traversal) |
 | [0112-path-sum](https://github.com/mowafess/leetcode-solution/tree/master/0112-path-sum) |
 | [0200-number-of-islands](https://github.com/mowafess/leetcode-solution/tree/master/0200-number-of-islands) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/mowafess/leetcode-solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/mowafess/leetcode-solution/tree/master/0695-max-area-of-island) |
 ## Matrix
@@ -107,12 +110,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/mowafess/leetcode-solution/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0102-binary-tree-level-order-traversal) |
 | [0112-path-sum](https://github.com/mowafess/leetcode-solution/tree/master/0112-path-sum) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/mowafess/leetcode-solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/mowafess/leetcode-solution/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/mowafess/leetcode-solution/tree/master/0102-binary-tree-level-order-traversal) |
 | [0112-path-sum](https://github.com/mowafess/leetcode-solution/tree/master/0112-path-sum) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/mowafess/leetcode-solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -157,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/mowafess/leetcode-solution/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/mowafess/leetcode-solution/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/mowafess/leetcode-solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mowafess/leetcode-solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [1023-time-based-key-value-store](https://github.com/mowafess/leetcode-solution/tree/master/1023-time-based-key-value-store) |
 | [1512-design-underground-system](https://github.com/mowafess/leetcode-solution/tree/master/1512-design-underground-system) |
