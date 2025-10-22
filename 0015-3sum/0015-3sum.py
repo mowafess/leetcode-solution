@@ -1,45 +1,34 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        
+        # SED - sort, enumerate, dedup
+        TARGET = 0
         nums.sort()
-        output = []
+        out = []
 
-        # output = set()
-        # def twoSums(start, num, target):
-            
-        #     seen = set()
-            
-        #     for i in range(start, len(nums)):
-        #         if target - nums[i] in seen:
-        #             output.add((num, target - nums[i], nums[i]))
-        #         seen.add(nums[i])
 
-        def twoSums(start, num, target):
-            l, r = start, len(nums) - 1
-
-            while l < r:  
-                curr = nums[r] + nums[l]
-
-                if curr == target:
-                    output.append([num, nums[l], nums[r]])
-                    l += 1
-                    while l < r and nums[l] == nums[l - 1]:
-                        l += 1
-
-                elif curr < target:
-                    l += 1
-                else:
-                    r -= 1
-    
-
-        for idx, num in enumerate(nums):
+        for i, num in enumerate(nums):
             if num > 0:
                 break
             
-            if idx > 0 and nums[idx-1] == num:
+            # dedup #1: skip first duplicate number
+            if i > 0 and num == nums[i - 1]:
                 continue
-                
-            twoSums(idx+1, num, 0 - num)
-                
-        # return map(list, output)
-        return output
+
+            # two pointer
+            l, r = i + 1, len(nums) - 1
+
+            while l < r:
+                total = num + nums[l] + nums[r]
+                if total < TARGET:
+                    l += 1
+                elif total > TARGET:
+                    r -= 1
+                else:
+                    out.append([num, nums[l], nums[r]])
+                    l += 1
+
+                    # dedup #2: skip dsecond duplicate numbers
+                    while l < r and nums[l] == nums[l-1]:
+                        l += 1
+
+        return out
