@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0648-replace-words](https://github.com/mowafess/leetcode-solution/tree/master/0648-replace-words) |
 | [0695-max-area-of-island](https://github.com/mowafess/leetcode-solution/tree/master/0695-max-area-of-island) |
 | [0731-my-calendar-ii](https://github.com/mowafess/leetcode-solution/tree/master/0731-my-calendar-ii) |
+| [0932-monotonic-array](https://github.com/mowafess/leetcode-solution/tree/master/0932-monotonic-array) |
 | [0940-fruit-into-baskets](https://github.com/mowafess/leetcode-solution/tree/master/0940-fruit-into-baskets) |
 | [1014-k-closest-points-to-origin](https://github.com/mowafess/leetcode-solution/tree/master/1014-k-closest-points-to-origin) |
 ## Hash Table
