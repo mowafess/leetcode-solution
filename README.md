@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/mowafess/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mowafess/leetcode-solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
+| [0611-valid-triangle-number](https://github.com/mowafess/leetcode-solution/tree/master/0611-valid-triangle-number) |
 | [0648-replace-words](https://github.com/mowafess/leetcode-solution/tree/master/0648-replace-words) |
 | [0695-max-area-of-island](https://github.com/mowafess/leetcode-solution/tree/master/0695-max-area-of-island) |
 | [0731-my-calendar-ii](https://github.com/mowafess/leetcode-solution/tree/master/0731-my-calendar-ii) |
@@ -43,12 +44,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/mowafess/leetcode-solution/tree/master/0125-valid-palindrome) |
 | [0283-move-zeroes](https://github.com/mowafess/leetcode-solution/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/mowafess/leetcode-solution/tree/master/0344-reverse-string) |
+| [0611-valid-triangle-number](https://github.com/mowafess/leetcode-solution/tree/master/0611-valid-triangle-number) |
 ## Sorting
 |  |
 | ------- |
 | [0015-3sum](https://github.com/mowafess/leetcode-solution/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/mowafess/leetcode-solution/tree/master/0056-merge-intervals) |
 | [0347-top-k-frequent-elements](https://github.com/mowafess/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
+| [0611-valid-triangle-number](https://github.com/mowafess/leetcode-solution/tree/master/0611-valid-triangle-number) |
 | [1014-k-closest-points-to-origin](https://github.com/mowafess/leetcode-solution/tree/master/1014-k-closest-points-to-origin) |
 ## String
 |  |
@@ -68,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/mowafess/leetcode-solution/tree/master/0011-container-with-most-water) |
+| [0611-valid-triangle-number](https://github.com/mowafess/leetcode-solution/tree/master/0611-valid-triangle-number) |
 ## Database
 |  |
 | ------- |
@@ -189,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0611-valid-triangle-number](https://github.com/mowafess/leetcode-solution/tree/master/0611-valid-triangle-number) |
 | [0731-my-calendar-ii](https://github.com/mowafess/leetcode-solution/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/mowafess/leetcode-solution/tree/master/0732-my-calendar-iii) |
 | [1023-time-based-key-value-store](https://github.com/mowafess/leetcode-solution/tree/master/1023-time-based-key-value-store) |
