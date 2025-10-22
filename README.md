@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/mowafess/leetcode-solution/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/mowafess/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mowafess/leetcode-solution/tree/master/0380-insert-delete-getrandom-o1) |
+| [0424-longest-repeating-character-replacement](https://github.com/mowafess/leetcode-solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0648-replace-words](https://github.com/mowafess/leetcode-solution/tree/master/0648-replace-words) |
 | [0940-fruit-into-baskets](https://github.com/mowafess/leetcode-solution/tree/master/0940-fruit-into-baskets) |
 | [1023-time-based-key-value-store](https://github.com/mowafess/leetcode-solution/tree/master/1023-time-based-key-value-store) |
@@ -68,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0273-integer-to-english-words](https://github.com/mowafess/leetcode-solution/tree/master/0273-integer-to-english-words) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mowafess/leetcode-solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/mowafess/leetcode-solution/tree/master/0344-reverse-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/mowafess/leetcode-solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0648-replace-words](https://github.com/mowafess/leetcode-solution/tree/master/0648-replace-words) |
 | [1023-time-based-key-value-store](https://github.com/mowafess/leetcode-solution/tree/master/1023-time-based-key-value-store) |
 | [1512-design-underground-system](https://github.com/mowafess/leetcode-solution/tree/master/1512-design-underground-system) |
@@ -277,5 +279,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mowafess/leetcode-solution/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/mowafess/leetcode-solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/mowafess/leetcode-solution/tree/master/0940-fruit-into-baskets) |
 <!---LeetCode Topics End-->
