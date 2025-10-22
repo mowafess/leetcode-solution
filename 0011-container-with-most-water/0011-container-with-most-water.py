@@ -1,30 +1,16 @@
-class Solution(object):
-    def maxArea(self, height):
-        """
-        :type height: List[int]
-        :rtype: int
-        """
-        
+class Solution:
+    def maxArea(self, height: List[int]) -> int:
         l, r = 0, len(height) - 1
-        max_area = 0
-        
-        while l < r:
-            min_h = min(height[l], height[r])
-            width = r - l
-            
-            max_area = max(max_area, min_h * width)
+        max_area = float('-inf')
 
-            if height[l] < height[r]:
-                l += 1
-            elif height[l] > height[r]:
+        while l < r:
+            b = r - l
+            h = min(height[l], height[r])
+            max_area = max(b * h, max_area)
+
+            if height[l] > height[r]:
                 r -= 1
             else:
                 l += 1
-                r -= 1
-            
-            # if height[l] < height[r]:
-            #     l += 1
-            # else:
-            #     r -= 1
-                
+
         return max_area
