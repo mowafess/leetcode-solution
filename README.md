@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0648-replace-words](https://github.com/mowafess/leetcode-solution/tree/master/0648-replace-words) |
 | [0695-max-area-of-island](https://github.com/mowafess/leetcode-solution/tree/master/0695-max-area-of-island) |
 | [0731-my-calendar-ii](https://github.com/mowafess/leetcode-solution/tree/master/0731-my-calendar-ii) |
+| [0940-fruit-into-baskets](https://github.com/mowafess/leetcode-solution/tree/master/0940-fruit-into-baskets) |
 | [1014-k-closest-points-to-origin](https://github.com/mowafess/leetcode-solution/tree/master/1014-k-closest-points-to-origin) |
 ## Hash Table
 |  |
@@ -34,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/mowafess/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mowafess/leetcode-solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [0648-replace-words](https://github.com/mowafess/leetcode-solution/tree/master/0648-replace-words) |
+| [0940-fruit-into-baskets](https://github.com/mowafess/leetcode-solution/tree/master/0940-fruit-into-baskets) |
 | [1023-time-based-key-value-store](https://github.com/mowafess/leetcode-solution/tree/master/1023-time-based-key-value-store) |
 | [1512-design-underground-system](https://github.com/mowafess/leetcode-solution/tree/master/1512-design-underground-system) |
 ## Two Pointers
@@ -269,4 +271,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/mowafess/leetcode-solution/tree/master/0146-lru-cache) |
+## Sliding Window
+|  |
+| ------- |
+| [0940-fruit-into-baskets](https://github.com/mowafess/leetcode-solution/tree/master/0940-fruit-into-baskets) |
 <!---LeetCode Topics End-->
