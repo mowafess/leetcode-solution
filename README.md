@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mowafess/leetcode-solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0200-number-of-islands](https://github.com/mowafess/leetcode-solution/tree/master/0200-number-of-islands) |
 | [0283-move-zeroes](https://github.com/mowafess/leetcode-solution/tree/master/0283-move-zeroes) |
+| [0303-range-sum-query-immutable](https://github.com/mowafess/leetcode-solution/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/mowafess/leetcode-solution/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mowafess/leetcode-solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [0463-island-perimeter](https://github.com/mowafess/leetcode-solution/tree/master/0463-island-perimeter) |
@@ -214,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/mowafess/leetcode-solution/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/mowafess/leetcode-solution/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mowafess/leetcode-solution/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0303-range-sum-query-immutable](https://github.com/mowafess/leetcode-solution/tree/master/0303-range-sum-query-immutable) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mowafess/leetcode-solution/tree/master/0380-insert-delete-getrandom-o1) |
 | [0731-my-calendar-ii](https://github.com/mowafess/leetcode-solution/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/mowafess/leetcode-solution/tree/master/0732-my-calendar-iii) |
@@ -263,6 +265,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/mowafess/leetcode-solution/tree/master/0303-range-sum-query-immutable) |
 | [0731-my-calendar-ii](https://github.com/mowafess/leetcode-solution/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/mowafess/leetcode-solution/tree/master/0732-my-calendar-iii) |
 ## Ordered Set
